@@ -31,7 +31,7 @@ public class App extends Application {
     }
     
     private void initializeFactory(){
-        for(int i = 0; i < 3; i++){
+        for(int i = 0; i < 5; i++){
             fac.getAc().add(new AC(Math.random() * (26 - 25 + 1) + 25));
             fac.getMachines().add(new Machine(Math.random() * (150 - 75 + 1) + 75));
         }
